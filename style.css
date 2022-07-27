@@ -1,0 +1,41 @@
+.common {
+    display: flex;
+    /* margin: 0 ; */
+    /* padding: 0; */
+    /* box-sizing: border-box; */
+    /* border-bottom: #000; */
+    /* border-style: solid; */
+  /* border-bottom-color: black;
+  border-bottom-width: 3px; */
+border-bottom: solid black 3px;
+border-right: solid black 3px;
+
+
+}
+.left-part {
+    
+    /* float: left; */
+    width: 30%;
+    overflow: auto;
+    /* height: 100%; */
+    margin-right: 60px;
+}
+.left-part img {
+    background-color: #ccc;
+    /* width: auto; */
+    height: 100vh;
+    /* margin-right: 60px; */
+
+
+
+}
+.right-part {
+    /* float: right; */
+    width: 65%;
+    /* margin-left: 60px; */
+}
+.right-part button {
+    background-color: white;
+    padding: 12px 25px;
+    margin-top: 40px;
+}
